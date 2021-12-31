@@ -26,11 +26,11 @@
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color ease-in 0.5s;
-  outline: none;
 }
 
 .namePage__form-input:focus {
   border-color: var(--yellow);
+  outline: none;
 }
 .namePage__form-input::placeholder {
   color: rgba(0, 0, 0, 0.38);
