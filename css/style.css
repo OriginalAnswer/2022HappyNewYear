@@ -1,5 +1,5 @@
 /* Font */
-@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Hi+Melody&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Hi+Melody&display=swap");
 /*  */
 @import "/css/reset.css";
 /* Pages */
@@ -12,7 +12,7 @@
 /* Default */
 * {
   box-sizing: border-box;
-  font-family: "Gamja Flower", "Hi Melody", "Roboto", sans-serif, cursive;
+  font-family: "Gamja Flower", "Hi Melody", cursive;
 }
 section {
   width: 100%;
