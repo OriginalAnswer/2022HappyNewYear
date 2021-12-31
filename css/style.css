@@ -5,6 +5,7 @@
 /* Pages */
 @import "pages/name.css";
 @import "pages/letter.css";
+@import "pages/2022.css";
 /* Root */
 :root {
   --yellow: #fae100;
