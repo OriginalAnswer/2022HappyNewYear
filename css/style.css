@@ -1,7 +1,7 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Hi+Melody&display=swap");
 /*  */
-@import "/css/reset.css";
+@import "css/reset.css";
 /* Pages */
 @import "pages/name.css";
 @import "pages/letter.css";
