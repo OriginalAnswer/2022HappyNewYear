@@ -12,26 +12,28 @@
   margin: 15px 0;
 }
 
-.namePage__input-enter {
+.namePage__form-submit {
   display: none;
 }
 
-.namePage__input-name {
+.namePage__form-input {
+  font-family: "Gamja Flower";
   border: none;
   padding: 15px 0;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color ease-in 0.5s;
 }
 
-.namePage__input-name:focus {
+.namePage__form-input:focus {
   border-color: var(--yellow);
 }
-.namePage__input-name::placeholder {
+.namePage__form-input::placeholder {
   color: rgba(0, 0, 0, 0.38);
   font-family: "Gamja Flower";
+  font-size: 0.9rem;
 }
 
 footer {

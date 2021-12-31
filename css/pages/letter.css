@@ -13,6 +13,9 @@
   /* font-weight: bold; */
   font-family: "Gamja Flower";
 }
+.letterPage__letter h1 span {
+  font-size: 2.5rem;
+}
 .letterPage__letter p {
   margin-top: 10px;
   font-size: 2rem;

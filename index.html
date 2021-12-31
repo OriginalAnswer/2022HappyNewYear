@@ -14,28 +14,33 @@
         <p class="namePage__text">
             Please, Type your name.
         </p>
-        <form class="namePage__input" action="letter.html" method="get">
+        <form 
+        class="namePage__form" 
+        id="namePage__form" 
+        action="letter.html">
             <input 
-            name="username" 
-            type="text" 
-            placeholder="writh here"
-            class="namePage__input-name">
-                
+                required
+                name="username" 
+                type="text" 
+                placeholder="writh here"
+                class="namePage__form-input"
+                id="namePage__form-input">        
             <input 
                 type="submit" 
                 value="name" 
-                id="namePage__input-enter"
-                class="namePage__input-enter">
+                id="namePage__form-submit"
+                class="namePage__form-submit">
         </form>
 
     </section>
 </div>
 <footer>
-    <label for="namePage__input-enter">
+    <label for="namePage__form-submit">
         <i class="fas fa-angle-double-right fa-2x"></i>
     </label>
 </footer>
     <!-- icon JavaScript -->
     <script src="https://kit.fontawesome.com/e4704dcbbd.js" crossorigin="anonymous"></script>
+    <script src="/js/name.js"></script>
 </body>
 </html>

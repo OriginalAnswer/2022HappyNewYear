@@ -12,7 +12,8 @@
         <section>
             <div class="letterPage__letter">
                 <h1>
-                    Hi, 김지민
+                    Hi, 
+                    <span id="letterName"></span>
                 </h1>
                 <p>
                     올 한해 고생많았어
@@ -26,10 +27,20 @@
             </div>
         </section>
     </div>
+
+
+<form action="index.html">
+    <button 
+    type="submit"
+    class="letterPage__form-rename"
+    id="letterPage__form-rename">
+    </button>
+</form>
+
 <div class="letterPage__icon-back">
-    <a href="index.html">
+    <label for="letterPage__form-rename">
         <i class="fas fa-angle-double-left fa-2x"></i>
-    </a>
+    </label>
 </div>    
 
 <div class="letterPage__icon-next">
@@ -39,6 +50,7 @@
 </div>    
     <!-- icon JavaScript -->
     <script src="https://kit.fontawesome.com/e4704dcbbd.js" crossorigin="anonymous"></script>
-
+    <script src="/js/name.js"></script>
+    <script src="/js/rename.js"></script>
 </body>
 </html>
