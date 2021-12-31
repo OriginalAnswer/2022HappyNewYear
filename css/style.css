@@ -1,9 +1,10 @@
 /* Font */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Gamja+Flower&family=Hi+Melody&display=swap");
 /*  */
 @import "/css/reset.css";
 /* Pages */
 @import "pages/name.css";
+@import "pages/letter.css";
 /* Root */
 :root {
   --yellow: #fae100;
@@ -11,7 +12,7 @@
 /* Default */
 * {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Hi Melody", "Gamja Flower", sans-serif, cursive;
 }
 section {
   width: 100%;
