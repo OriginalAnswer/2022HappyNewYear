@@ -12,7 +12,7 @@
 /* Default */
 * {
   box-sizing: border-box;
-  font-family: "Roboto", "Hi Melody", "Gamja Flower", sans-serif, cursive;
+  font-family: "Gamja Flower", "Hi Melody", "Roboto", sans-serif, cursive;
 }
 section {
   width: 100%;
