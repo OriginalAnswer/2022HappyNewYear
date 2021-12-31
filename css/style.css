@@ -1,0 +1,30 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*  */
+@import "/css/reset.css";
+/* Pages */
+@import "pages/name.css";
+/* Root */
+:root {
+  --yellow: #fae100;
+}
+/* Default */
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+section {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*  */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: #2e363e;
+}

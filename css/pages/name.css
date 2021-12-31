@@ -1,0 +1,43 @@
+.namePage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.namePage__text {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.namePage__input-enter {
+  display: none;
+}
+
+.namePage__input-name {
+  border: none;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color ease-in 0.5s;
+}
+
+.namePage__input-name:focus {
+  border-color: var(--yellow);
+}
+.namePage__input-name::placeholder {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 4.5vw 6.5vw;
+}
+
+@media (max-width: 900px) {
+}
