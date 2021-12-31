@@ -7,6 +7,7 @@
 }
 .letterPage__letter {
   text-align: center;
+  margin-bottom: 40px;
 }
 .letterPage__letter h1 {
   font-size: 3rem;
@@ -17,7 +18,7 @@
   font-size: 2.6rem;
 }
 .letterPage__letter p {
-  margin-top: 10px;
+  margin-top: 40px;
   font-size: 2.4rem;
   font-family: "Hi Melody";
 }
@@ -37,4 +38,35 @@
 
 .letterPage__form-rename-btn {
   display: none;
+}
+
+/* Letter Animatioins */
+
+.letterPage__letter h1 {
+  opacity: 0;
+  animation: fadeText 1.2s linear forwards;
+}
+.letterPage__letter p:nth-child(2) {
+  opacity: 0;
+  animation: fadeText 1.2s linear forwards;
+  animation-delay: 1.1s;
+}
+.letterPage__letter p:nth-child(3) {
+  opacity: 0;
+  animation: fadeText 1.3s linear forwards;
+  animation-delay: 2.4s;
+}
+.letterPage__letter p:nth-child(4) {
+  opacity: 0;
+  animation: fadeText 1.5s linear forwards;
+  animation-delay: 3.6s;
+}
+
+@keyframes fadeText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
