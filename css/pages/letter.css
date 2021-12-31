@@ -34,3 +34,7 @@
   bottom: 0;
   margin: 4.5vw 6.5vw;
 }
+
+.letterPage__form-rename-btn {
+  display: none;
+}
