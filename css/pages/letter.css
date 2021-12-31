@@ -53,7 +53,7 @@
 }
 .letterPage__letter p:nth-child(3) {
   opacity: 0;
-  animation: fadeText 1.3s linear forwards;
+  animation: fadeText 1.2s linear forwards;
   animation-delay: 2.4s;
 }
 .letterPage__letter p:nth-child(4) {
